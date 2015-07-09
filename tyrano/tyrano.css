@@ -170,6 +170,12 @@ body{
     -khtml-user-select: none;
 }
 
+.tyrano_base * {
+  /* transform and z-index conflict fix */
+  -webkit-transform: translate3d(0px,0px,0px);
+  transform: translate3d(0px,0px,0px);
+}
+
 /* button 
 ---------------------------------------------- */
 .button {
